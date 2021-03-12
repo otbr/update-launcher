@@ -1,0 +1,278 @@
+body {
+    color: #484848;
+
+    font-family:  'PT Sans', Helvetica, sans-serif;
+    font-size:  14px;
+    width: 900px;
+    height: 430px;
+    overflow: hidden;
+    position: relative;
+}
+
+div.box_logo{
+    position: absolute;
+    width: 273px;
+    height: 117px;
+    right: 35.9%;
+    align-items: center;
+}
+
+div.box_logo img{
+
+}
+
+div.box_info{
+    background: url(../assets/caixa_newsticker/newsticker.png) no-repeat; /* 273,117 */
+    position: absolute;
+    top: 68%;
+    right: 35.9%;
+    width: 273px;
+    height: 117px;
+}
+
+div.box_online{
+    background: url(../assets/onlines/frame.png) no-repeat; /* 55,30 */
+    position: absolute;
+    left: 1%;
+    width: 55px;
+    height: 30px;
+}
+
+.box_online .box_conteudo{
+    position: relative;
+    top: 9px;
+    left: 17px;
+    width: 32px;
+    height: 17px;
+    text-align: center;
+}
+
+.box_online .box_conteudo a{
+    color: white;
+    font-family: Calibri;
+    font-size: 12px;
+}
+
+div.box_status{
+    background: url(../assets/status/frame.png) no-repeat; /* 55,56 */
+    position: absolute;
+    left: 8%;
+    width: 55px;
+    height: 55px;
+}
+
+.box_status .box_conteudo_status{
+    position: relative;
+    text-align: center;
+    top: 9px;
+    left: 5px;
+    width: 45px;
+    height: 16px;
+    text-align: center;
+}
+
+.box_status .box_conteudo_status a{
+    font-family: Calibri;
+    font-size: 12px;
+}
+
+.box_info_nome{
+    position: relative;
+    top: 1px;
+    font-size: 12px;
+    width: 271px;
+    height: 15px;
+    text-align: center;
+    color: #d4d4d4;
+    /*border: 1px solid yellow;*/
+}
+
+.box_info_conteudo{
+    width: 271px;
+    height: 96px;
+    /*border: 1px solid yellow;*/
+}
+
+.div_margin{
+    padding-right: 5px;
+}
+
+.paragrafo_box_conteudo{
+    width: 261px;
+    height: 90px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    margin-left: 6px;
+    color: #d4d4d4;
+    font-size: 13px;
+    font-family: Calibri;
+}
+
+div.box_evento{
+    background: url(../assets/caixa_boss-toplevel/box.png) no-repeat; /* 92,117 */
+    position: absolute;
+    top: 68%;
+    right: 25.1%;
+    width: 92px;
+    height: 117px;
+}
+
+.box_evento_nome{
+    top: 2px;
+    position: relative;
+    color: #d4d4d4;
+    width: 89px;
+    height: 15px;
+    text-align: center;
+    font-size: 11px;
+    /*border: 1px solid yellow;*/
+}
+
+.box_evento_conteudo{
+    width: 89px;
+    height: 96px;
+    position: absolute;
+    /*border: 1px solid red; */
+}
+
+
+.evento_conteudo{
+    margin-left: 4%;
+    margin-top: 10%;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 6px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #d4d4d4;
+    border-radius: 10px;
+}
+
+div.box_top{
+    background: url(../assets/caixa_boss-toplevel/box.png) no-repeat; /* 92,117 */
+    position: absolute;
+    top: 68%;
+    right: 66.8%;
+    width: 92px;
+    height: 117px;
+
+}
+
+.box_top_nome{
+    top: 2px;
+    position: relative;
+    color: #d4d4d4;
+    width: 89px;
+    height: 15px;
+    text-align: center;
+    font-size: 11px;
+    /*border: 1px solid yellow;*/
+}
+
+.box_top_conteudo{
+    position: relative;
+    width: 89px;
+    height: 96px;
+}
+
+.top_conteudo_gif{
+    position: relative;
+    margin-top: 2px;
+    width: 89px;
+    height: 64px;
+    text-align: center;
+    /*border: 1px solid red;*/
+}
+
+.outift_conteudo{
+    position: relative;
+    width: 64px;
+    height: 64px;
+    bottom: 5px;
+    right: 15px;
+}
+
+.top_conteudo{
+    position: relative;
+    text-align: center;
+}
+
+.top_conteudo a{
+    margin-top: 6px;
+    margin-left: 3px;
+    margin-right: 1px;
+    overflow: hidden;
+    font-family: Calibri;
+    display: block;
+    font-size: 11px;
+    color: white;
+    overflow: hidden;
+}
+
+.level_top{
+    position: absolute;
+    color: white;
+    font-family: Calibri;
+    font-size: 10px;
+    bottom: 83px;
+    left: 40px;
+}
+
+/* Tooltip container */
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+
+    /* Position the tooltip text */
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -60px;
+
+    /* Fade in tooltip */
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+/* Tooltip arrow */
+.tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+
+
